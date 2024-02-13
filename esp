@@ -233,3 +233,6 @@ game:GetService("RunService").RenderStepped:Connect(function()
 		end
 		Setline(Line, LineWidth, TargetData[2], LineOrigin, TargetData[1])
 	end
+ end)
+end)
+
